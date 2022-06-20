@@ -1,0 +1,138 @@
+.task{
+    width: 100%;
+    background-color:white;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.icon1{
+    background-color:yellow;
+    font-size:0.3rem;
+    margin-left: 2.5em;
+    color:rgba(211, 211, 211, 0.766)
+    
+}
+
+.circle--small--low{
+    font-size:2.3rem;
+    position: relative;
+    bottom:0 ;
+    top:0.2px;
+    right: 7.9px;
+    color: rgba(255, 166, 0, 0.908)
+}
+
+.job--kind{
+    /* flex:0.12 */
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.job{
+    font-size:0.9rem;
+    
+}
+
+.kind{
+    background-color:lightgray;
+    border-radius: 7px 7px 7px 7px;
+    font-size:0.7rem;
+    padding: 0.2em;
+    text-align:center;
+    justify-self: flex-start;
+}
+
+.price--delivery{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price, .name{
+    font-size:0.85rem;
+    font-weight: bold;
+}
+
+.price--tag{
+    font-size:0.59rem;
+}
+
+.delivery{
+    font-size:0.59rem;
+}
+
+.delivery--description{
+    font-size:0.62rem;
+    font-weight: bold;
+}
+
+.avatar--img{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* margin-bottom:30px; */
+}
+.avatar{
+    margin-right: 0.4em;
+}
+
+.assignee{
+    font-size:0.65rem;
+}
+
+.status--circle{
+    width: 8em;
+    background-color:white;
+    padding: 0.4em;
+    border-radius:0em 50em 50em 50em;
+    font: 0.85em sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.circle--big{
+    /* padding-right: 1em; */
+    font-size: 1.2rem;
+    /* padding-right: 0.3em; */
+    flex:0.3;
+    color: orange;
+    font-weight: bold;
+}
+
+.status{
+    flex:.7;
+    font-size: 1rem;
+
+}
+
+.icon2--circle{
+    background-color: pink;
+}
+
+
+.icon2{
+    background-color:yellow;
+    font-size:0.3rem;
+    color:rgba(211, 211, 211, 0.766)
+    
+}
+.circle--small--up{
+    font-size:2.3rem;
+    position: relative;
+    top:-20px;
+    right:2.5px;
+    color: black
+}
+
+.crud{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}

@@ -1,0 +1,85 @@
+.header {
+    margin-top: 2em;
+    /* display: flex;
+    width: 100%;
+    justify-content: space-between; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3em 0;
+    background-color:#f2f2f2;
+    /* align-self:space-between; */
+  }
+  
+  .logo {
+    /* background-color:white; */
+    height: 3em;
+    min-width: 1em;
+    width: 6.9em;
+    display: flex;
+    align-items: center;
+    margin-right: 1em;
+  }
+  
+  .logo--drug{
+    margin-left:0.03em;
+    padding: 0.5em;
+    width:50%;
+    /* min-width: 49%; */
+    background-color:rgba(253, 248, 248, 0.941);
+    border-radius:.5em 0em 0em .5em;
+    font: 1em sans-serif;
+    color:lightgreen;
+  }
+  
+  
+  .logo--stoc{
+    margin-left:0.03em;
+    padding: 0.5em;
+    width:50%;
+    /* min-width: 49%; */
+    background-color:rgb(103, 134, 220);
+    border-radius:0em 0.5em 0.5em 0em;
+    color:rgb(255, 255, 255, 0.65)
+  }
+  
+  .add--task{
+    width: 10em;
+    cursor: pointer;
+    background-color:white;
+    align-self:center;
+    min-width: 1em;
+    padding: 0.5em;
+    background-color:rgb(103, 134, 220);
+    border-radius:0em 50em 50em 50em;
+    font: 0.85em sans-serif;
+    font-weight: bold;
+    color:#ffffff;
+    transition: all 0.25s ease;
+  }
+
+  .add--task:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px -10px rgba(24, 90, 219, 0.6);
+  }
+
+
+  /* AddModal */
+.primaryBtn {
+  margin: 20px 10px;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 13px 25px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  border: none;
+  color: white;
+  background: #185adb;
+  transition: all 0.25s ease;
+}
+
+.primaryBtn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px -10px rgba(24, 90, 219, 0.6);
+}
+  

@@ -1,0 +1,20 @@
+.sidebar--tags{
+    padding-top:1.5em;
+    display: flex;
+    align-items: center;
+    color: gray;
+    font-size:0.75rem;
+    height:1.8em;
+    /* background-color:red; */
+    cursor: pointer;
+    transition: 200ms color ease-in;
+}
+
+.sidebar--tags:hover{
+    color: gold;
+}
+
+.sidebarTags--icon{
+    /* padding-left: 10px; */
+    padding-right: 0.3em;
+}

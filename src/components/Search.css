@@ -1,0 +1,45 @@
+.search--sort{
+    width: 100%;
+    margin-top: 1.5em;
+    background-color:white;
+  }
+   
+  .search--sort,.search--icon, .sort--icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3em 0;
+    color: rgba(255, 255, 255, 0.772);
+  
+  }
+  .search--icon{
+    background-color:white;
+    width: 12em;
+    margin-left: 1.5em;
+  }
+  .sort--icon{
+    /* background-color: oldlace; */
+    width:7.5em;
+  }
+  .search{
+    width:80%;
+    border: none;
+    text-align: center;
+    outline: none;
+  }
+  .pipe,.sort--logo{
+    width:2%;
+  }
+  .search--logo, .sort--icon{
+   color:gray;
+  }
+  .sort--text{
+    width:60%;
+    /* font:0.1rem; */
+  }
+  .pipe{
+    margin-right: 0.4em;
+    font: 2.5em sans-serif;
+    
+  }
+  
