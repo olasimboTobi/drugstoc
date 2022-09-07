@@ -5,11 +5,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
 
 }
 
 .icon1{
-    background-color:yellow;
+    /* background-color:yellow; */
     font-size:0.3rem;
     margin-left: 2.5em;
     color:rgba(211, 211, 211, 0.766)
@@ -90,6 +92,7 @@
     width: 8em;
     background-color:white;
     padding: 0.4em;
+    border:2px solid lightgray; ;
     border-radius:0em 50em 50em 50em;
     font: 0.85em sans-serif;
     display: flex;
@@ -113,12 +116,12 @@
 }
 
 .icon2--circle{
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 
 .icon2{
-    background-color:yellow;
+    /* background-color:yellow; */
     font-size:0.3rem;
     color:rgba(211, 211, 211, 0.766)
     

@@ -1,9 +1,21 @@
 import "./Display.css"
+import {useEffect} from 'react'
 import Task from "./Task"
+import {fetchTasks} from '../redux/task/taskAction'
+import {useDispatch} from "react-redux"
+// import {useSelector} from "react-redux"
 // import LibraryBooksIcon from '@material-ui/icons/LibraryBooks';
 // import ChatIcon from '@material-ui/icons/Chat';
 
 function Display() {
+  
+  // const tasks = useSelector(state => state.tasks)
+  const dispatch = useDispatch()
+  
+  useEffect(()=>{
+        dispatch(fetchTasks())
+  },[dispatch])
+
   return (
     <div className="display">
       <div className="display--header">

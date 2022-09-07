@@ -2,6 +2,8 @@
     width: 100%;
     margin-top: 1.5em;
     background-color:white;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
   }
    
   .search--sort,.search--icon, .sort--icon {
@@ -35,6 +37,7 @@
   }
   .sort--text{
     width:60%;
+    font-size: 00.7rem;
     /* font:0.1rem; */
   }
   .pipe{

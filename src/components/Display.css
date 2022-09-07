@@ -10,9 +10,10 @@
 
 .display--header{
     height: 10%;
+    font-size: 0.7rem;
     display: flex;
     justify-content: space-between;
-    /* background-color:ghostwhite; */
+    background-color:ghostwhite;
 }
 
 .header--content{
@@ -46,6 +47,11 @@
     font-weight: bold;
     color:gray;
     /* border-radius: 50%; */
+}
+.active--task{
+    /* border-bottom: 2px solid blue; */
+    
+
 }
 
 
